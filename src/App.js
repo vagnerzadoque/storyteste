@@ -1,24 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import {StyledComponent} from 'styled-components'
+import UseForm from './components/UseForm'
 
 function App() {
   return (
+    <>
+    <UseForm />
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <h1>Vagner</h1>
     </div>
+
+    </>
   );
 }
 
